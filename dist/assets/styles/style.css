@@ -248,6 +248,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  z-index: 1;
 }
 
 .user__photo {
@@ -255,7 +256,7 @@ main {
 }
 
 .main__user {
-  z-index: 10;
+  z-index: -1;
   padding-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,7 +391,7 @@ button:hover {
 }
 
 .main__bg {
-  z-index: 0;
+  z-index: -2;
   position: absolute;
   height: 100%;
   width: 100%;
